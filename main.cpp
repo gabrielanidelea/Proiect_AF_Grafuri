@@ -5,8 +5,8 @@
 #include<stack>
 #include <bits/stdc++.h>
 using namespace std;
-ifstream f("ctc.in");
-ofstream g("ctc.out");
+ifstream f("pg.in");
+ofstream g("pg.out");
 const int MAX=100005;
 class graf{
 public:
@@ -387,14 +387,14 @@ int main()
 */
 
     //CTC
-
+    /*
     int N, M;
     f>>N>>M;
     Gr.creare_graf_ctc(N, M);
     Gr.creare_adiacente_ctc(M);
     Gr.fct_ctc(N);
 
-
+    */
 
     //critical connections
     /*
@@ -414,9 +414,9 @@ int main()
 */
 
     //Havel Hakimi
-    /*
+
     vector<int>v;
-    int N
+    int N;
     int h;
     f>>N;
     for(int i=0; i<N; i++)
@@ -430,7 +430,7 @@ int main()
     else
         g<<"Nu";
 
-    */
+
 
     //Sortare Topologica
     /*
